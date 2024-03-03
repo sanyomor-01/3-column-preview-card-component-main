@@ -4,21 +4,32 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 h1,p {
     padding: 0;
 }
+.attribution {
+    font-size : 11px;
+    text-align : center;
+    margin-top : 20px;
+}
+.attribution a {
+    color : hsl(228 45% 44%);
+}
 body{
     display: grid;
     place-items: center;
-    margin: 0 auto;
-    height: 75vh;
+    margin:auto;
+    height: fit-content;
     gap: 16px;
+    background: hsl(0, 0%, 95%)
 }
-.main{
+.container{
     width: 90rem;
-    height: 50rem;
-    display: inline-flex;
+    height: 52rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: hsl(0, 0%, 95%);
@@ -26,9 +37,8 @@ body{
 .Cars{
     display: flex;
     align-items: flex-start;
-    width: 57.185rem;
-    height: 31.8125rem;
     border-radius: 0.5rem;
+    width: 57.188rem;
 }
 .columns{
     display: flex;
@@ -98,4 +108,61 @@ body{
     font-size: 15px;
     font-weight: 400;
     line-height: 24px; 
+}
+/*media queries for mobile screen*/
+@media screen and (max-width: 26.88rem) {
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .container{
+        width: 24rem;
+        background:  hsl(0, 0%, 95%);
+        /*border: 0.375rem solid #69958E;*/ /* uncomment to show borders*/
+        border-radius: 1rem;
+        padding:3.125rem 1.5rem;
+    
+    
+    }
+    .Cars{
+        display: inline-flex;
+        flex-direction: column;
+        overflow-y: auto; /* Enable vertical scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth touch scrolling for iOS */
+        touch-action: pan-y; /* Allow vertical panning (swiping) */
+        border-radius: 0.5rem;
+        width: 20.44rem;
+    }
+    .columns{
+        padding:3.12rem;
+    
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+    .description img{
+        width: 4rem;
+        height: 2.5rem;
+    }
+    .btn{
+        margin-top:1.88rem;
+        outline: 0;
+        border: 0;
+        width: 9.375rem;
+        border-radius: 2rem;
+        padding: 15px 0;
+        font-family: "Lexend Deca";
+        font-size: 15px;
+        height:50px;
+    }
+    .sedans{
+        border-radius: 0.5rem 0.5rem 0 0;
+    }
+      .luxury{
+      border-radius: 0 0 0.5rem 0.5rem;
+    
+    }
 }
