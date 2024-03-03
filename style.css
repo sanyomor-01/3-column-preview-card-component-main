@@ -11,6 +11,9 @@ h1,p {
 body{
     display: grid;
     place-items: center;
+    margin: 0 auto;
+    height: 75vh;
+    gap: 16px;
 }
 .main{
     width: 90rem;
@@ -18,14 +21,13 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid red;
+    background: hsl(0, 0%, 95%);
 }
 .Cars{
     display: flex;
     align-items: flex-start;
     width: 57.185rem;
     height: 31.8125rem;
-    border: 2px solid blue;
     border-radius: 0.5rem;
 }
 .columns{
@@ -49,21 +51,51 @@ body{
     border: 0;
     width: 9.375rem;
     border-radius: 2rem;
-    padding: 1rem 0;
+    padding: 15px 0;
     font-family: "Lexend Deca";
-    font-size: 1rem;
+    font-size: 15px;
+    height:50px;
+}
+.btn:active{
+    text-align: center;
     background: none;
-    border: 0.125rem solid hsl(0, 0%, 95%) ;
+    border:1.5px solid hsl(0, 0%, 95%) ;
     color:hsl(0, 0%, 95%) ;
+    cursor: pointer;
+}
+.btn-sedans{
+    color:hsl(31, 77%, 52%) ;
+}
+.btn-suvs{
+    color: hsl(184, 100%, 22%);
+}
+.btn-luxury{
+    color: hsl(179, 100%, 13%);
 }
 .carBrand{
-    font-family: "Big Shoulder Display";
+    font-family: "Big Shoulders Display";
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 2.5rem;
+    color: hsl(0, 0%, 95%);
 }
 .sedans{
   background: hsl(31, 77%, 52%);
   border-radius: 0.5rem 0 0 0.5rem;
+}
+.suv{
+    background:hsl(184, 100%, 22%) ;
+}
+.luxury{
+    background: hsl(179, 100%, 13%);
+  border-radius: 0 0.5rem 0.5rem 0;
+
+}
+.description p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px; 
 }
