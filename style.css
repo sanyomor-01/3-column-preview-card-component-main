@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+h1,p {
+    padding: 0;
+}
+.main{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    width: 90rem;
+    background: hsl(0, 0%, 9%%);
+}
+.touringCars{
+    display: flex;
+    flex-direction: row;
+    width: 57.185rem;
+    height: 31.8125rem;
+}
+.columns{
+    
+}
