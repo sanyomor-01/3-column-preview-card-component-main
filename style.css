@@ -70,7 +70,7 @@ body{
     height:50px;
 }
 
-.btn:active ,.btn-sedans:hover{
+.btn:active ,.btn:hover{
     text-align: center;
     background: none;
     border:1.5px solid hsl(0, 0%, 95%) ;
