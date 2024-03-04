@@ -80,8 +80,8 @@ A preview page for earch car when a user clicks on the learn more button.
 ## Author
 
 - Website - [Michael Sanyomor](https://www.linkedin.com/in/michael-sanyomor/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@sanyomor-01](https://www.frontendmentor.io/profile/sanyomor-01)
+- Twitter - [@sanyo_mor](https://twitter.com/sanyo_mor)
 
 
 ## Acknowledgments
